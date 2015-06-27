@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "attiny",
+      "maintainer": "John Spencer",
+      "websiteURL": "https://github.com/mage0r/attiny",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "attiny",
+          "architecture": "avr",
+          "version": "1.0.1-eeprom",
+          "category": "attiny",
+          "help": {
+            "online": ""
+          },
+	  "url": "https://github.com/mage0r/attiny/archive/ide-1.6.x-boards-manager.zip",
+          "archiveFileName": "ide-1.6.x-boards-manager.zipzip",
+          "boards": [
+            {"name": "ATtiny45"},
+            {"name": "ATtiny85"},
+            {"name": "ATtiny44"},
+            {"name": "ATtiny84"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
